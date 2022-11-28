@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE6E68222934E740009B96AD /* Nokin_CalculaterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6E68212934E740009B96AD /* Nokin_CalculaterApp.swift */; };
+		BE6E68242934E740009B96AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6E68232934E740009B96AD /* ContentView.swift */; };
+		BE6E68262934E740009B96AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6E68252934E740009B96AD /* Assets.xcassets */; };
+		BE6E682A2934E740009B96AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE6E68292934E740009B96AD /* Preview Assets.xcassets */; };
+		BE6E68342934E741009B96AD /* Nokin_CalculaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6E68332934E741009B96AD /* Nokin_CalculaterTests.swift */; };
+		BE6E683E2934E741009B96AD /* Nokin_CalculaterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6E683D2934E741009B96AD /* Nokin_CalculaterUITests.swift */; };
+		BE6E68402934E741009B96AD /* Nokin_CalculaterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6E683F2934E741009B96AD /* Nokin_CalculaterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE6E68302934E741009B96AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE6E68162934E740009B96AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE6E681D2934E740009B96AD;
+			remoteInfo = Nokin_Calculater;
+		};
+		BE6E683A2934E741009B96AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE6E68162934E740009B96AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE6E681D2934E740009B96AD;
+			remoteInfo = Nokin_Calculater;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE6E681E2934E740009B96AD /* Nokin_Calculater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nokin_Calculater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6E68212934E740009B96AD /* Nokin_CalculaterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nokin_CalculaterApp.swift; sourceTree = "<group>"; };
+		BE6E68232934E740009B96AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE6E68252934E740009B96AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE6E68272934E740009B96AD /* Nokin_Calculater.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nokin_Calculater.entitlements; sourceTree = "<group>"; };
+		BE6E68292934E740009B96AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE6E682F2934E741009B96AD /* Nokin_CalculaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nokin_CalculaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6E68332934E741009B96AD /* Nokin_CalculaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nokin_CalculaterTests.swift; sourceTree = "<group>"; };
+		BE6E68392934E741009B96AD /* Nokin_CalculaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nokin_CalculaterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6E683D2934E741009B96AD /* Nokin_CalculaterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nokin_CalculaterUITests.swift; sourceTree = "<group>"; };
+		BE6E683F2934E741009B96AD /* Nokin_CalculaterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nokin_CalculaterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE6E681B2934E740009B96AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6E682C2934E741009B96AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6E68362934E741009B96AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE6E68152934E740009B96AD = {
+			isa = PBXGroup;
+			children = (
+				BE6E68202934E740009B96AD /* Nokin_Calculater */,
+				BE6E68322934E741009B96AD /* Nokin_CalculaterTests */,
+				BE6E683C2934E741009B96AD /* Nokin_CalculaterUITests */,
+				BE6E681F2934E740009B96AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE6E681F2934E740009B96AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE6E681E2934E740009B96AD /* Nokin_Calculater.app */,
+				BE6E682F2934E741009B96AD /* Nokin_CalculaterTests.xctest */,
+				BE6E68392934E741009B96AD /* Nokin_CalculaterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE6E68202934E740009B96AD /* Nokin_Calculater */ = {
+			isa = PBXGroup;
+			children = (
+				BE6E68212934E740009B96AD /* Nokin_CalculaterApp.swift */,
+				BE6E68232934E740009B96AD /* ContentView.swift */,
+				BE6E68252934E740009B96AD /* Assets.xcassets */,
+				BE6E68272934E740009B96AD /* Nokin_Calculater.entitlements */,
+				BE6E68282934E740009B96AD /* Preview Content */,
+			);
+			path = Nokin_Calculater;
+			sourceTree = "<group>";
+		};
+		BE6E68282934E740009B96AD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BE6E68292934E740009B96AD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE6E68322934E741009B96AD /* Nokin_CalculaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE6E68332934E741009B96AD /* Nokin_CalculaterTests.swift */,
+			);
+			path = Nokin_CalculaterTests;
+			sourceTree = "<group>";
+		};
+		BE6E683C2934E741009B96AD /* Nokin_CalculaterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE6E683D2934E741009B96AD /* Nokin_CalculaterUITests.swift */,
+				BE6E683F2934E741009B96AD /* Nokin_CalculaterUITestsLaunchTests.swift */,
+			);
+			path = Nokin_CalculaterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE6E681D2934E740009B96AD /* Nokin_Calculater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE6E68432934E741009B96AD /* Build configuration list for PBXNativeTarget "Nokin_Calculater" */;
+			buildPhases = (
+				BE6E681A2934E740009B96AD /* Sources */,
+				BE6E681B2934E740009B96AD /* Frameworks */,
+				BE6E681C2934E740009B96AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nokin_Calculater;
+			productName = Nokin_Calculater;
+			productReference = BE6E681E2934E740009B96AD /* Nokin_Calculater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE6E682E2934E741009B96AD /* Nokin_CalculaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE6E68462934E741009B96AD /* Build configuration list for PBXNativeTarget "Nokin_CalculaterTests" */;
+			buildPhases = (
+				BE6E682B2934E741009B96AD /* Sources */,
+				BE6E682C2934E741009B96AD /* Frameworks */,
+				BE6E682D2934E741009B96AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE6E68312934E741009B96AD /* PBXTargetDependency */,
+			);
+			name = Nokin_CalculaterTests;
+			productName = Nokin_CalculaterTests;
+			productReference = BE6E682F2934E741009B96AD /* Nokin_CalculaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE6E68382934E741009B96AD /* Nokin_CalculaterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE6E68492934E741009B96AD /* Build configuration list for PBXNativeTarget "Nokin_CalculaterUITests" */;
+			buildPhases = (
+				BE6E68352934E741009B96AD /* Sources */,
+				BE6E68362934E741009B96AD /* Frameworks */,
+				BE6E68372934E741009B96AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE6E683B2934E741009B96AD /* PBXTargetDependency */,
+			);
+			name = Nokin_CalculaterUITests;
+			productName = Nokin_CalculaterUITests;
+			productReference = BE6E68392934E741009B96AD /* Nokin_CalculaterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE6E68162934E740009B96AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					BE6E681D2934E740009B96AD = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					BE6E682E2934E741009B96AD = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = BE6E681D2934E740009B96AD;
+					};
+					BE6E68382934E741009B96AD = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = BE6E681D2934E740009B96AD;
+					};
+				};
+			};
+			buildConfigurationList = BE6E68192934E740009B96AD /* Build configuration list for PBXProject "Nokin_Calculater" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE6E68152934E740009B96AD;
+			productRefGroup = BE6E681F2934E740009B96AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE6E681D2934E740009B96AD /* Nokin_Calculater */,
+				BE6E682E2934E741009B96AD /* Nokin_CalculaterTests */,
+				BE6E68382934E741009B96AD /* Nokin_CalculaterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE6E681C2934E740009B96AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6E682A2934E740009B96AD /* Preview Assets.xcassets in Resources */,
+				BE6E68262934E740009B96AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6E682D2934E741009B96AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6E68372934E741009B96AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE6E681A2934E740009B96AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6E68242934E740009B96AD /* ContentView.swift in Sources */,
+				BE6E68222934E740009B96AD /* Nokin_CalculaterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6E682B2934E741009B96AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6E68342934E741009B96AD /* Nokin_CalculaterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE6E68352934E741009B96AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6E68402934E741009B96AD /* Nokin_CalculaterUITestsLaunchTests.swift in Sources */,
+				BE6E683E2934E741009B96AD /* Nokin_CalculaterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE6E68312934E741009B96AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE6E681D2934E740009B96AD /* Nokin_Calculater */;
+			targetProxy = BE6E68302934E741009B96AD /* PBXContainerItemProxy */;
+		};
+		BE6E683B2934E741009B96AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE6E681D2934E740009B96AD /* Nokin_Calculater */;
+			targetProxy = BE6E683A2934E741009B96AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BE6E68412934E741009B96AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE6E68422934E741009B96AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BE6E68442934E741009B96AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Nokin_Calculater/Nokin_Calculater.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nokin_Calculater/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nokin.space.Nokin-Calculater";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE6E68452934E741009B96AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Nokin_Calculater/Nokin_Calculater.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nokin_Calculater/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nokin.space.Nokin-Calculater";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE6E68472934E741009B96AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nokin.space.Nokin-CalculaterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nokin_Calculater.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nokin_Calculater";
+			};
+			name = Debug;
+		};
+		BE6E68482934E741009B96AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nokin.space.Nokin-CalculaterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nokin_Calculater.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Nokin_Calculater";
+			};
+			name = Release;
+		};
+		BE6E684A2934E741009B96AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nokin.space.Nokin-CalculaterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nokin_Calculater;
+			};
+			name = Debug;
+		};
+		BE6E684B2934E741009B96AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nokin.space.Nokin-CalculaterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nokin_Calculater;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE6E68192934E740009B96AD /* Build configuration list for PBXProject "Nokin_Calculater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6E68412934E741009B96AD /* Debug */,
+				BE6E68422934E741009B96AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE6E68432934E741009B96AD /* Build configuration list for PBXNativeTarget "Nokin_Calculater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6E68442934E741009B96AD /* Debug */,
+				BE6E68452934E741009B96AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE6E68462934E741009B96AD /* Build configuration list for PBXNativeTarget "Nokin_CalculaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6E68472934E741009B96AD /* Debug */,
+				BE6E68482934E741009B96AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE6E68492934E741009B96AD /* Build configuration list for PBXNativeTarget "Nokin_CalculaterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE6E684A2934E741009B96AD /* Debug */,
+				BE6E684B2934E741009B96AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE6E68162934E740009B96AD /* Project object */;
+}
